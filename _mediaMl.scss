@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px){
+  html,body{
+    overflow-x: hidden;
+  }
+  .nav-menu{
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top:8vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition:transform .3s ease-in;
+
+    .nav-menu-item{
+      opacity:0;
+    }
+  }
+
+  .burger{
+    display: block!important;
+  }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .nav-menu{
+      width: 70% !important;
+  }
+
+
+}
